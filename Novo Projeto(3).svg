@@ -1,0 +1,59 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1281 640" width="1281" height="640">
+  <title>Novo Projeto</title>
+  <defs>
+    <linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,640,-1281,0,640.5,0)">
+      <stop offset="0" stop-color="#fdf6e3" stop-opacity="1"/>
+      <stop offset=".771" stop-color="#fdf6e3" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fdf6e3" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    tspan { white-space:pre }
+    .s0 { fill: url(#g1) }
+    .t1 { font-size: 24px;fill: #586e75;font-weight: 400;font-family: "JetBrainsMono-Regular", "JetBrains Mono" }
+
+    /* Adicione o código CSS de animação aqui */
+    @keyframes gradient-animation {
+      0% {
+        stop-color: #fdf6e3;
+        stop-opacity: 1;
+      }
+      50% {
+        stop-color: #fdf6e3;
+        stop-opacity: 0.5;
+      }
+      100% {
+        stop-color: #fdf6e3;
+        stop-opacity: 0;
+      }
+    }
+
+    .s0 {
+      animation: gradient-animation 5s ease-in-out infinite;
+    }
+
+    @keyframes text-animation {
+      0% {
+        transform: translateY(-20px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .t1 {
+      animation: text-animation 1s ease-in-out;
+    }
+  </style>
+  <path id="Forma 1" class="s0" d="m80 0h1121c44.2 0 80 35.8 80 80v560h-1281v-560c0-44.2 35.8-80 80-80z"/>
+  <text id="text" style="transform: matrix(4.298,0,0,4.298,299.702,173.25)" class="t1">
+    <tspan x="0" y="0">$</tspan><tspan y="0"> </tspan><tspan y="0">w</tspan><tspan y="0">h</tspan><tspan y="0">o</tspan><tspan y="0">a</tspan><tspan y="0">m</tspan><tspan y="0">i</tspan><tspan y="0">
+</tspan>
+    <tspan x="0" y="28.8">H</tspan><tspan y="28.8">e</tspan><tspan y="28.8">i</tspan><tspan y="28.8">t</tspan><tspan y="28.8">o</tspan><tspan y="28.8">r</tspan><tspan y="28.8"> </tspan><tspan y="28.8">L</tspan><tspan y="28.8">i</tspan><tspan y="28.8">m</tspan><tspan y="28.8">a</tspan><tspan y="28.8">
+</tspan>
+    <tspan x="0" y="57.6">$</tspan><tspan y="57.6"> </tspan><tspan y="57.6">c</tspan><tspan y="57.6">l</tspan><tspan y="57.6">e</tspan><tspan y="57.6">a</tspan><tspan y="57.6">r</tspan><tspan y="57.6">
+</tspan>
+  </text>
+</svg>

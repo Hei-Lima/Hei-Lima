@@ -1,1 +1,1 @@
-[alt text](banana.svg)
+![alt text](banana.svg)

@@ -5,9 +5,9 @@ It's EIGHT OR. Yes, is not technically pronounced 8 Or, more like ay-TOR LEE-ma.
 
 Currently a undergrad student at Ifes - Serra.
 
-Devops at LEDS - Ifes;
+Backend Developer @ LEDS;
 
-    ⚙️ I use daily: bash, docker, kubernetes, python, argo cd, rancher, drone ci, gitlab ci
+    ⚙️ I use daily: C#, .NET framework, bash, docker, kubernetes, python, argo cd, rancher, drone ci, github ci
 
 
 ![alt text](bottom.svg)
